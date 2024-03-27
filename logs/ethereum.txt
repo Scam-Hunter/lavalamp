@@ -244,3 +244,4 @@
 {"jsonrpc":"2.0","id":1,"result":"0x9c479ca69"}
 {"error":"{\"Error_GUID\":\"6418395494181226102\",\"Error\":\"Failed all retries {GUID:6418395494181226102,error:rpc error: code = Unknown desc = Sending chainMsg failed ErrMsg: Post \\\"https://eth-rpc.o1.wtf\\\": EOF {GUID:6418395494181226102,specID:ETH1}: TryRelay Failed ErrMsg: Sending chainMsg failed ErrMsg: Post \\\"https://eth-rpc.o1.wtf\\\": EOF {GUID:6418395494181226102,specID:ETH1}: Post \\\"https://eth-rpc.o1.wtf\\\": EOF {request.SessionId:7373780637093693843,request.userAddr:lava@1mh9d3vdthekxvc0aflnvzhurv2585aakzs9e3a,GUID:6418395494181226102,timed_out:false},chain_id:ETH1}\"}"}
 {"jsonrpc":"2.0","id":1,"result":"0xd41fbe6d4"}
+{"jsonrpc":"2.0","id":1,"result":"0xe066ce2d1"}
