@@ -14,8 +14,8 @@ permissions:
   contents: write # Grants permissions to write to the repo
 
 env:
-  GIT_USER_EMAIL: rxmxdhxni@gmail.com
-  GIT_USER_NAME: dante4rt
+  GIT_USER_EMAIL: scamhunter@tutanota.de
+  GIT_USER_NAME: Scam-Hunter
 
 jobs:
   ethereum_auto_commit:
@@ -30,8 +30,8 @@ jobs:
 
       - name: Run Ethereum script
         run: |
-          chmod +x ethereum.sh
-          ./ethereum.sh
+          chmod +x https://eth1.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./https://eth1.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
 
       - name: Configure Git identity
         run: |
@@ -60,8 +60,8 @@ jobs:
 
       - name: Run NEAR script
         run: |
-          chmod +x near.sh
-          ./near.sh
+          chmod +x https://near.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./https://near.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
 
       - name: Configure Git identity
         run: |
@@ -90,8 +90,8 @@ jobs:
 
       - name: Run StarkNet script
         run: |
-          chmod +x starknet.sh
-          ./starknet.sh
+          chmod +x https://rpc.starknet.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./https://rpc.starknet.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
 
       - name: Configure Git identity
         run: |
@@ -120,8 +120,8 @@ jobs:
 
       - name: Run Axelar script
         run: |
-          chmod +x axelar.sh
-          ./axelar.sh
+          chmod +x https://tm.axelar.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./https://tm.axelar.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
 
       - name: Configure Git identity
         run: |
