@@ -6,7 +6,7 @@ on:
       - master
 
   schedule:
-    - cron: '*/20 * * * *' # Runs every 20 minutes
+    - cron: '*/20 * * * *' # Runs every 31 minutes
 
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
@@ -31,7 +31,7 @@ jobs:
       - name: Run Ethereum script
         run: |
           chmod +x ethereum.sh
-          ./https://eth1.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./ethereum.sh
 
       - name: Configure Git identity
         run: |
@@ -61,7 +61,7 @@ jobs:
       - name: Run NEAR script
         run: |
           chmod +x near.sh
-          ./https://near.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./near.sh
 
       - name: Configure Git identity
         run: |
@@ -91,7 +91,7 @@ jobs:
       - name: Run StarkNet script
         run: |
           chmod +x starknet.sh
-          ./https://rpc.starknet.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./starknet.sh
 
       - name: Configure Git identity
         run: |
@@ -121,7 +121,7 @@ jobs:
       - name: Run Axelar script
         run: |
           chmod +x axelar.sh
-          ./https://tm.axelar.lava.build/lava-referer-043849c0-9387-4f40-990e-7786f31dd3ae/
+          ./axelar.sh
 
       - name: Configure Git identity
         run: |
