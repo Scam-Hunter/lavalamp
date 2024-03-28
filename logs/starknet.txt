@@ -273,3 +273,4 @@ error code: 520
 {"jsonrpc":"2.0","id":"1","result":966900}
 {"jsonrpc":"2.0","id":"\"1\"","result":966902}
 {"jsonrpc":"2.0","id":"\"1\"","result":966903}
+{"jsonrpc":"2.0","id":"\"1\"","result":966906}
